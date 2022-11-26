@@ -13,6 +13,7 @@ body{
     align-items:center;
     overflow: hidden;
     min-width: 480px;
+    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
     
 }
 .logo{
@@ -88,7 +89,7 @@ justify-content: center;
 align-items: center;
 height:30px;
 width:60px;
-background:;
+
 border-radius: 10px;;
 
 }
@@ -109,13 +110,10 @@ display: flex;
 align-items: center;
 justify-content: center;
 height:30px;
-width:80px;
-background:;
-border-radius: 10px;;
+width:80px; 
+border-radius: 10px;
 
 }
-
-
 @keyframes wave-animation {
         0% { transform: rotate( 0.0deg) }
         10% { transform: rotate(14.0deg) }  /* The following five values can be played with to make the waving more or less extreme */
