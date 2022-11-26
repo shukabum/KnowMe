@@ -1,0 +1,113 @@
+
+body{
+    background-color: rgb(28, 26, 26);
+}
+.navbar{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    
+}
+.logo{
+    position:absolute;
+    display: flex;
+    margin-left: -1000px;
+}
+.name{
+    margin-top:20px;
+
+}
+.heading{
+    position:absolute;
+    margin-top:100px;
+   display:flex;
+   margin-left:0px;
+}
+.hand{
+    position:absolute;
+    height:90px;
+    width:100px;
+    margin-top:-25px;
+    margin-left:925px;
+    animation-name: wave-animation; 
+    animation-duration: 3s;        
+    animation-iteration-count: infinite;  
+    transform-origin: bottom left;       
+    display: inline-block;
+}
+
+.eyes{position:absolute;
+    margin-top:60px;
+    margin-left:-375px;
+    -webkit-transform-origin: 50%;
+    -webkit-animation: blink 2s infinite;
+}
+@-webkit-keyframes blink {
+    0%, 100% {
+                transform: scale(1, .05);
+            }
+    5%,95% {
+            transform: scale(1, 1);
+        }
+}
+.menu 
+{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    font-size: 20px;
+   
+    height:50px;
+    width:300px;
+    margin-left:1000px;
+    color:aquamarine;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.h a{
+text-decoration: none;
+color:wheat;
+}
+.h{display: flex;
+justify-content: center;
+align-items: center;
+height:30px;
+width:60px;
+background:;
+border-radius: 10px;;
+
+}
+.h1 a {
+text-decoration: none;
+color:wheat;
+}
+.h:hover{
+transition:all 0.5 ease ;
+background:grey;
+}
+.h1:hover{
+transition:all 0.5 ease ;
+background:grey;
+}
+.h1 {
+display: flex;
+align-items: center;
+justify-content: center;
+height:30px;
+width:80px;
+background:;
+border-radius: 10px;;
+
+}
+
+
+@keyframes wave-animation {
+        0% { transform: rotate( 0.0deg) }
+        10% { transform: rotate(14.0deg) }  /* The following five values can be played with to make the waving more or less extreme */
+        20% { transform: rotate(-8.0deg) }
+        30% { transform: rotate(14.0deg) }
+        40% { transform: rotate(-4.0deg) }
+        50% { transform: rotate(10.0deg) }
+        60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
+        100% { transform: rotate( 0.0deg) }
+}
