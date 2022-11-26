@@ -1,5 +1,5 @@
 html{
-    -webkit-fill-available;
+   height:-webkit-fill-available;
 }
 body{
     background-color: rgb(28, 26, 26);
