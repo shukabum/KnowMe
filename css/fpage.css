@@ -1,6 +1,10 @@
-
+html{
+    -webkit-fill-available;
+}
 body{
     background-color: rgb(28, 26, 26);
+    height:100vh;
+    height:-webkit-fill-available;
 }
 .navbar{
     display:flex;
