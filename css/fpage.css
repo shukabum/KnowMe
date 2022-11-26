@@ -10,9 +10,10 @@ body{
 }
 .name{
     margin-top:20px;
-    display: flex;
+    display:flex;
     justify-content: center;
     align-items: center;
+
 }
 .heading{
     position:absolute;
@@ -30,7 +31,6 @@ body{
     width:90px;
     margin-top:-80px;
     margin-left:-10px;
-    
     animation-name: wave-animation; 
     animation-duration: 3s;        
     animation-iteration-count: infinite;  
@@ -75,7 +75,7 @@ justify-content: center;
 align-items: center;
 height:30px;
 width:60px;
-background:;
+
 border-radius: 10px;;
 
 }
@@ -97,7 +97,7 @@ align-items: center;
 justify-content: center;
 height:30px;
 width:80px;
-background:;
+
 border-radius: 10px;;
 
 }
