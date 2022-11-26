@@ -1,26 +1,12 @@
-html{
-   height:-webkit-fill-available;
-   grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
-}
+
 body{
     background-color: rgb(28, 26, 26);
-    min-height:480px;
-    height:-webkit-fill-available;
-
 }
 .navbar{
     display:flex;
-    justify-content:space-around;
+    justify-content:center;
     align-items:center;
-    overflow: hidden;
-    min-width: 480px;
     
-    
-}
-.logo{
-    position:absolute;
-    display: flex;
-    margin-left: -1000px;
 }
 .name{
     margin-top:20px;
@@ -29,15 +15,20 @@ body{
 .heading{
     position:absolute;
     margin-top:100px;
-   display:flex;
-   margin-left:0px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-left:0px;
+    
 }
+
 .hand{
     position:absolute;
     height:90px;
-    width:100px;
-    margin-top:-25px;
-    margin-left:925px;
+    width:90px;
+    margin-top:-80px;
+    margin-left:-10px;
+    
     animation-name: wave-animation; 
     animation-duration: 3s;        
     animation-iteration-count: infinite;  
@@ -46,7 +37,7 @@ body{
 }
 
 .eyes{position:absolute;
-    margin-top:60px;
+    margin-top:-40px;
     margin-left:-375px;
     -webkit-transform-origin: 50%;
     -webkit-animation: blink 2s infinite;
@@ -59,14 +50,6 @@ body{
             transform: scale(1, 1);
         }
 }
-@media screen {
-    .header{
-        visibility: visible;
-    }
-
-}
-    
-
 .menu 
 {
     display:flex;
@@ -90,7 +73,7 @@ justify-content: center;
 align-items: center;
 height:30px;
 width:60px;
-
+background:;
 border-radius: 10px;;
 
 }
@@ -111,10 +94,13 @@ display: flex;
 align-items: center;
 justify-content: center;
 height:30px;
-width:80px; 
-border-radius: 10px;
+width:80px;
+background:;
+border-radius: 10px;;
 
 }
+
+
 @keyframes wave-animation {
         0% { transform: rotate( 0.0deg) }
         10% { transform: rotate(14.0deg) }  /* The following five values can be played with to make the waving more or less extreme */
