@@ -3,8 +3,9 @@ html{
 }
 body{
     background-color: rgb(28, 26, 26);
-    height:100vh;
+    min-height:480px;
     height:-webkit-fill-available;
+
 }
 .navbar{
     display:flex;
