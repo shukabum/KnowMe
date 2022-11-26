@@ -54,7 +54,7 @@ body{
             transform: scale(1, 1);
         }
 }
-@media only screen and (max-width: 448px){
+@media screen {
     .header{
         visibility: visible;
     }
