@@ -24,7 +24,12 @@ body{
     margin-left:0px;
     
 }
-
+html {
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar {
+    display:none;
+}
 .hand{
     position:absolute;
     height:90px;
